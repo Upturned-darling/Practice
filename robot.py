@@ -26,3 +26,10 @@ while self.is disabled():
   timer = wpilib.timer()
   timer.start()
   
+  while self.isOperatorControl() and self.isEnabled():
+    
+    
+    self.motor.set(self.lstick.getY())
+    
+    
+  
