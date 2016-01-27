@@ -30,6 +30,4 @@ while self.is disabled():
     
     
     self.motor.set(self.lstick.getY())
-    
-    
   
